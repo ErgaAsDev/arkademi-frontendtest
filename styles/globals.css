@@ -193,19 +193,30 @@ li {
   border-radius: 50%;
   background: #ffffff;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.147427);
+  
 }
 
 .carousel-control-next {
   right: -15px !important;
+  
 }
 .carousel-control-prev {
   left: -15px !important;
 }
-.carousel-control-next-icon{
+/* .carousel-control-next-icon{
   background-image: url("/Images/PathNext.svg") !important;
+} */
+.carousel-control-next-icon::after{
+  content: ">";
+  color: black;
+  font-weight: 700;
+  
 }
-.carousel-control-prev-icon{
-  background-image: url("/Images/PathPrev.svg") !important;
+.carousel-control-prev-icon::after{
+  /* background-image: url("/Images/PathPrev.svg") !important; */
+  content: "<";
+  color: black;
+  font-weight: 700;
 }
 .carousel-control-next,
 .carousel-control-prev {

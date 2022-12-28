@@ -86,6 +86,7 @@ body {
   max-width: 100vw;
   /* overflow-x: hidden; */
   text-decoration: none;
+  font-family: "Montserrat";
 }
 h5 {
   margin-bottom: 0;
@@ -104,11 +105,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-a {
-  /* color: black !important; */
+#card-trending a,
+#card-lembaga a,
+#card-kategori-spesial a {
+  color: black !important;
   text-decoration: none !important;
 }
 
+a{
+  text-decoration: none !important;
+
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -118,6 +125,8 @@ a {
 #card {
   border: 0px;
 }
+
+
 
 /* NAVBAR TOP */
 #navbar-top {
@@ -192,16 +201,29 @@ li {
 .carousel-control-prev {
   left: -15px !important;
 }
-
+.carousel-control-next-icon{
+  background-image: url("/Images/PathNext.svg") !important;
+}
+.carousel-control-prev-icon{
+  background-image: url("/Images/PathPrev.svg") !important;
+}
 .carousel-control-next,
 .carousel-control-prev {
   opacity: 1 !important;
   width: auto !important;
 }
 
+#smallcarousel-image{
+  display: none;
+}
 @media screen and (max-width: 568px) {
   #bigcarousel-image {
     width: 100%;
+    display: none !important;
+  }
+
+  #smallcarousel-image{
+    display: flex;
   }
 
   #carousel-one {

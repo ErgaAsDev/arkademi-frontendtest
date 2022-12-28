@@ -14,14 +14,12 @@ const CarouselBig = () => {
               alt=""
               id="bigcarousel-image"
             />
-          </Carousel.Item>
-          <Carousel.Item>
             <Image
-              src="/Images/BigCarousel.png"
-              width={1346}
-              height={280}
+              src="/Images/SmallCarousel.svg"
+              width={459}
+              height={257}
               alt=""
-              id="bigcarousel-image"
+              id="smallcarousel-image"
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -31,6 +29,29 @@ const CarouselBig = () => {
               height={280}
               alt=""
               id="bigcarousel-image"
+            />
+            <Image
+              src="/Images/SmallCarousel.svg"
+              width={459}
+              height={257}
+              alt=""
+              id="smallcarousel-image"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <Image
+              src="/Images/BigCarousel.png"
+              width={1346}
+              height={280}
+              alt=""
+              id="bigcarousel-image"
+            />
+            <Image
+              src="/Images/SmallCarousel.svg"
+              width={459}
+              height={257}
+              alt=""
+              id="smallcarousel-image"
             />
           </Carousel.Item>
         </Carousel>

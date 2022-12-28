@@ -44,7 +44,7 @@ const HomePage = () => {
   });
 
   return (
-    <div>
+    <div id="homepage">
       <NavbarTop />
       <NavbarBottom />
       <CarouselBig />

@@ -455,6 +455,9 @@ li {
     align-items: center;
     gap: 20px;
   }
+  #card-testimoni{
+    width: 300px !important;
+  }
 }
 
 /* TENTANG ARKADEMI */
@@ -495,6 +498,10 @@ li {
   }
   #tentang-arkademi-kontainer {
     padding-left: 0px;
+  }
+  #tentang-arkademi-akselerator,
+  #tentang-arkademi-foto{
+    width: 100%;
   }
 }
 

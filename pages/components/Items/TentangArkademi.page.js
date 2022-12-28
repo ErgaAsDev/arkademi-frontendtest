@@ -4,7 +4,7 @@ import React from "react";
 const TentangArkademi = () => {
   return (
     <div className="container d-flex flex-row justify-content-between" id="tentang-arkademi">
-      <Image src="/Images/TentangFoto.svg" width={385} height={281} alt="" />
+      <Image src="/Images/TentangFoto.svg" width={385} height={281} alt="" id="tentang-arkademi-foto"/>
       <div className id="tentang-arkademi-kontainer">
         <Image
           src="/Images/TentangArkademiLogo.svg"
@@ -35,6 +35,7 @@ const TentangArkademi = () => {
           width={483}
           height={29}
           alt=""
+          id="tentang-arkademi-akselerator"
         />
       </div>
     </div>

@@ -224,6 +224,7 @@ li {
 
   #smallcarousel-image{
     display: flex;
+    width: 100%;
   }
 
   #carousel-one {
